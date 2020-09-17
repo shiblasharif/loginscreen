@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 body {
   margin: 0;
 }
 .container {
-  background-color:rgb(223, 211, 211);
+  background-color:white;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -10,7 +11,7 @@ body {
 }
 
 .login-box {
-  background-color:lightpink;
+  background-color:#f8e9ec;
   border-radius: 10px;
   padding: 25px;
   display: flex;
@@ -45,4 +46,17 @@ body {
 
   color:coral;
   transform: scale(1.1);
+}
+
+*{
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 1.1px;
+}
+
+.login-box .submitbutton{
+  height: 30px;
+  background-color: #f76077;
+  color: white;
+  border: 0;
+
 }
