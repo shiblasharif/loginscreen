@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+.container {
+  background-color:rgb(223, 211, 211);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color:lightpink;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: brown;
+}
+
+.login-box input {
+  margin: 10px;
+  width: auto;
+  height: 25px;
+  cursor: pointer;
+  color: blue;
+}
+
+.login-box .bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: rgb(67, 67, 117);
+  cursor: pointer;
+}
+
+.login-box label {
+  display: inline-block;
+  width: 100px;
+
+}
+
+.login-box .bottom :hover {
+
+  color:coral;
+  transform: scale(1.1);
+}
