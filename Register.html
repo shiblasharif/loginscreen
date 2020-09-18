@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="">
+      <div class="container">
+        <div class="login-box">
+          <div>
+            <label for="text"><b>First name:</b></label>
+            <input type="name" placeholder="First name" /><br />
+            <label for="text"><b>last name:</b></label>
+            <input type="name" placeholder="Last name" />
+          </div>
+          <div>
+            <label for="Password"><b>Password:</b></label>
+            <input type="password" placeholder="********" required />
+          </div>
+          <div>
+            <label for="Password-repeat"><b>Repeat Password:</b></label>
+            <input type="password" placeholder="********" required />
+          </div>
+          <div>
+            <label for="email"><b>Email:</b></label>
+            <input type="email" placeholder="abc@gmail.com" required />
+          </div>
+          <div>
+            <label for="date"><b>DOB:</b></label>
+            <input type="date" />
+          </div>
+          <div>
+            <label for="sex"><b>sex:</b></label>
+            <label for="male"><b>Male</b></label>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="female"><b>Female</b></label>
+            <input type="radio" id="female" name="gender" value="female" />
+          </div>
+          <input type="submit" value="Register" class="submitbutton" />
+          <p>
+            <a href="index.html"><b>Return to login</b></a>
+          </p>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
